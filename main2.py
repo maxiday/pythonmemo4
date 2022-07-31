@@ -5,8 +5,8 @@ import tkinter.messagebox as msbox
 date = datetime.date.today()
 
 win = Tk()
-win.title("호노의_Memo")
-win.geometry("600x370")
+win.title("메모장")
+win.geometry("700x500")
 
 filename = str(date) + '.txt'
 
